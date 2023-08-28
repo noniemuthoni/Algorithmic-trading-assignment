@@ -76,12 +76,16 @@ In this section, you’ll tune, or adjust, the model’s input features to find 
 Training window increased to 6 months = Precision accuracy increased slightly (0.01) for both buy and sell signals. The overall model accuracy increased by 0.01
 Reduced training window to 1 month = precision accuracy for the sell signal dropped but 'buy'signal remained unchanged and the model's accuracy also remained unchanged.
 
-    > **Hint** To adjust the size of the training dataset, you can use a different `DateOffset` value&mdash;for example, six months. Be aware that changing the size of the training dataset also affects the size of the testing dataset.
+    > **Hint** To adjust the size![double training window](https://github.com/noniemuthoni/Algorithmic-trading-assignment/assets/133269723/69eb5e0d-0820-421e-a60e-23a32c2f2d89)
+![training window 1 month](https://github.com/noniemuthoni/Algorithmic-trading-assignment/assets/133269723/db1143e3-9e91-4f09-93b4-f4d1ebe78858)
+ of the training dataset, you can use a different `DateOffset` value&mdash;for example, six months. Be aware that changing the size of the training dataset also affects the size of the testing dataset.
 
 2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. Rerun the notebook with the updated parameters, and record the results in your `README.md` file. Answer the following question: What impact resulted from increasing or decreasing either or both of the SMA windows?
 
 ### Answer 
 Increasing the long SMA window to 200 led to a slight increase in the sell signal precision but the model accuracy dropped by 0.01
+
+![SMA long window 200](https://github.com/noniemuthoni/Algorithmic-trading-assignment/assets/133269723/6f4d8b8c-a249-4507-bb82-c73cf3750567)
 
 3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your `README.md` file.
 
