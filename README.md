@@ -85,7 +85,6 @@ Reduced training window to 1 month = precision accuracy for the sell signal drop
 ### Answer 
 Increasing the long SMA window to 200 led to a slight increase in the sell signal precision but the model accuracy dropped by 0.01
 
-![SMA long window 200](https://github.com/noniemuthoni/Algorithmic-trading-assignment/assets/133269723/6f4d8b8c-a249-4507-bb82-c73cf3750567)
 
 3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your `README.md` file.
 
