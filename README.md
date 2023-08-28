@@ -75,7 +75,6 @@ In this section, you’ll tune, or adjust, the model’s input features to find 
 ### ANSWER 
 Training window increased to 6 months = Precision accuracy increased slightly (0.01) for both buy and sell signals. The overall model accuracy increased by 0.01
 Reduced training window to 1 month = precision accuracy for the sell signal dropped but 'buy'signal remained unchanged and the model's accuracy also remained unchanged.
-![Decorative image.](Images/14-challenge-double training window.png)
 
 
     > **Hint** To adjust the size of the training dataset, you can use a different `DateOffset` value&mdash;for example, six months. Be aware that changing the size of the training dataset also affects the size of the testing dataset.
